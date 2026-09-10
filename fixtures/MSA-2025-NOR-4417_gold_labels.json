@@ -1,0 +1,141 @@
+{
+  "document": {
+    "id": "MSA-2025-NOR-4417",
+    "version": "3.2 executed draft",
+    "classification": "Confidential",
+    "approx_pages": 13,
+    "approx_words": 5000,
+    "approx_paragraphs_after_segmentation": 400
+  },
+  "parties": {
+    "supplier": {
+      "legal_name": "Nordic Systems Consulting AS",
+      "org_no": "912 334 881",
+      "registered_office": "Storgata 18, 0184 Oslo, Norway",
+      "signatory": "Ingrid Halvorsen, Partner",
+      "email": "i.halvorsen@nordicsystems.no",
+      "phone": "+47 21 00 44 10",
+      "iban": "NO93 8601 1117 947",
+      "bic": "DNBANOKKXXX",
+      "bank": "DNB Bank ASA"
+    },
+    "customer": {
+      "legal_name": "Helios Freight Holdings Ltd",
+      "company_no": "11844721",
+      "registered_office": "14 Finsbury Square, London EC2A 1AH, United Kingdom",
+      "signatory": "James Whitaker, Vice President, Technology",
+      "email": "j.whitaker@heliosfreight.com",
+      "phone": "+44 20 7946 0812",
+      "vat": "GB 332 7718 04",
+      "day_to_day_counterpart": "Maya Chen"
+    }
+  },
+  "commercial": {
+    "project_name": "Project Meridian",
+    "currency": "EUR",
+    "estimated_fees_ex_vat": 480000,
+    "not_to_exceed_cap": 520000,
+    "non_contractual_usd_budget_note": 510000,
+    "payment_terms_contractual_days": 30,
+    "customer_ap_internal_sla_days": 45,
+    "late_interest": "8% per annum above ECB main refinancing rate",
+    "first_invoice_expected": "2025-01-31",
+    "invoicing": "monthly in arrears"
+  },
+  "dates": {
+    "effective_date": "2025-01-01",
+    "signature_date": "2025-03-15",
+    "initial_term_months": 24,
+    "initial_term_expiry": "2026-12-31",
+    "non_renewal_notice_days": 90,
+    "renewal_term_months": 12,
+    "go_live_target": "2025-09-15",
+    "hypercare_start": "2025-09-22",
+    "hypercare_end": "2025-11-14",
+    "source_data_extracts_due": "2025-03-31",
+    "uat_window_start": "2025-06-02",
+    "heads_of_terms": "2024-11-12",
+    "proposal_nsc_p_8841": "2024-12-02",
+    "modern_slavery_statement": "2024-09-30"
+  },
+  "liability_insurance": {
+    "cap_formula": "Fees paid or payable in the 12 months preceding the first event, or EUR 250,000, whichever is higher",
+    "liability_floor_eur": 250000,
+    "pi_insurance_eur": 2000000,
+    "public_liability_eur": 5000000,
+    "cyber_insurance_eur": 1000000,
+    "insurance_tail_years": 2
+  },
+  "confidentiality_dp": {
+    "general_confidentiality_years": 3,
+    "personal_data_confidentiality_years_after_processing": 5,
+    "breach_notify_hours": 72,
+    "log_retention_days": 180,
+    "us_transfer_allowed_by_default": false,
+    "processor_locations": ["Oslo, Norway", "Frankfurt am Main, Germany"],
+    "controller": "Customer",
+    "processor": "Supplier"
+  },
+  "sla": {
+    "p1_response": "30 minutes, 24x7",
+    "p1_restore": "4 hours",
+    "credit_cap_percent_of_monthly_support_fees": 10,
+    "exclusive_remedy_for_sla_failure": true
+  },
+  "termination": {
+    "convenience_notice_days": 60,
+    "demobilisation_weeks": 4,
+    "cause_cure_days": 30,
+    "non_payment_cure_days": 15,
+    "auto_renewal": true
+  },
+  "anomalies_must_detect": [
+    {
+      "id": "X-01",
+      "poles": ["Effective Date 1 January 2025", "Signatures 15 March 2025"],
+      "document_resolution": "Effective Date remains 1 January 2025; interim services ratified."
+    },
+    {
+      "id": "X-02",
+      "poles": ["Initial Term 24 months to 31 December 2026", "PMO slide 36-month horizon"],
+      "document_resolution": "Slide is not incorporated."
+    },
+    {
+      "id": "X-03",
+      "poles": ["Cover: laws of Norway", "Clause 12.1: laws of England and Wales"],
+      "document_resolution": "Unresolved in operative text; issues list prefers England and Wales."
+    },
+    {
+      "id": "X-04",
+      "poles": ["Clause 4.3 Net 30", "Schedule B.4 Customer AP Net 45"],
+      "document_resolution": "Internal SLA does not amend Clause 4.3; Net 30 prevails."
+    },
+    {
+      "id": "X-05",
+      "poles": ["EUR 480,000 / cap EUR 520,000", "USD 510,000 budget note"],
+      "document_resolution": "USD figure is non-contractual."
+    },
+    {
+      "id": "X-06",
+      "poles": ["Clause 6.2 confidentiality 3 years", "Schedule E.2 Personal Data 5 years"],
+      "document_resolution": "5-year period applies only to Personal Data."
+    },
+    {
+      "id": "X-07",
+      "poles": ["Invoices in EUR", "UK travel may be invoiced in GBP"],
+      "document_resolution": "GBP exception is limited to UK travel expenses."
+    }
+  ],
+  "scoring_rubric": {
+    "pass_core_entities": "Supplier, Customer, document id, both dates, EUR 480000, cap 520000, Net 30, auto-renewal true, US transfer false",
+    "pass_conflicts": "At least 5 of 7 anomalies with both poles and a justification",
+    "pass_references": "Each concept item has at least one paragraph or sentence reference that actually contains the cited fact",
+    "fail_if": [
+      "Resolves governing law to a single jurisdiction without mentioning the conflict",
+      "Treats USD 510000 as the contract value",
+      "Treats Net 45 as the contractual payment term",
+      "Treats 36 months as the Initial Term",
+      "Drops the Effective Date in favour of the signature date"
+    ]
+  }
+}

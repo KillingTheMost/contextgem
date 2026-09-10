@@ -1,72 +1,45 @@
-# ContextGem online app (Gemini Flash)
+# Contract Intake
 
-Web UI around [ContextGem](https://contextgem.dev/) that sends the whole document to **Gemini Flash** via a Google AI Studio API key.
+Streamlit app: Gemini reads the document. ContextGem supplies the schema, citations, and a gold scorecard.
 
-ContextGem is Python. Google AI Studio cannot run this library in the prompt box. This app is the hosted version: Streamlit UI → ContextGem → `gemini/gemini-3.8-flash`.
+This is not a fork of the ContextGem library. Install ContextGem from PyPI.
 
-## Local run
+## Run
 
 ```bash
-cd contextgem-app
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
-Open http://localhost:8501
+1. Paste a Google AI Studio key.
+2. Click **Load race fixture (MSA-2025-NOR-4417)** or upload a file.
+3. Preset **Contract intake (race)**.
+4. Model **gemini/gemini-3.8-flash**.
+5. Extract. Check the scorecard.
 
-1. Create a key at https://aistudio.google.com/apikey
-2. Paste it in the sidebar
-3. Paste or upload a document
-4. Pick a preset (contract / invoice / general) or define fields
-5. Click **Extract with Gemini Flash**
+Do not select `gemini-2.5-flash`. New keys get 404.
 
-## Deploy online
+## Streamlit Cloud
 
-### A. Streamlit Community Cloud (easiest)
+Main file: `streamlit_app.py`  
+Users bring their own AI Studio key.
 
-1. Push this folder to a public GitHub repo
-2. Go to https://share.streamlit.io and deploy `app.py`
-3. Users paste their own AI Studio key in the sidebar
-
-Optional: store *your* key as a secret named `GEMINI_API_KEY` and read it in `app.py` if you want a private internal tool.
-
-### B. Hugging Face Spaces
-
-1. New Space → SDK **Streamlit**
-2. Upload these files
-3. Space builds from `requirements.txt`
-
-### C. Cloud Run (Google Cloud)
-
-```bash
-gcloud run deploy contextgem-app \
-  --source . \
-  --region us-central1 \
-  --allow-unauthenticated \
-  --set-env-vars GEMINI_API_KEY=AIza...
-```
-
-Do **not** put the API key in the image. Use Cloud Run env vars or Secret Manager.
-
-Dockerfile already listens on port `8080`.
-
-## Model id
-
-LiteLLM (used by ContextGem) needs the AI Studio prefix:
+## Files
 
 ```
-gemini/gemini-3.8-flash
+streamlit_app.py
+requirements.txt
+Dockerfile
+fixtures/MSA-2025-NOR-4417_ContextGem_test.txt
+fixtures/MSA-2025-NOR-4417_gold_labels.json
+gem_instructions.txt
+RACE.md
 ```
 
-`gemini-3.8-flash` without `gemini/` is treated as Vertex AI and will fail with a credentials error.
-
-If 3.8 is unavailable on your key, switch the sidebar to **Gemini 2.5 Flash** or **gemini-flash-latest**.
+`gem_instructions.txt` is the companion Gemini Gem (follow-up desk), not this app.
 
 ## Limits
 
-- One document at a time (ContextGem’s design)
-- Gemini Flash context is ~1M tokens — fine for typical contracts/reports, not a 10k-page corpus
-- PDF text comes from `pypdf` (no OCR). Scanned PDFs will be empty unless you OCR first
-- Public deployments: make users bring their own key, or you pay for their tokens
+- One document per run.
+- Flash context is ~1M tokens. The race fixture is ~40k characters.
+- PDFs via pypdf (no OCR).

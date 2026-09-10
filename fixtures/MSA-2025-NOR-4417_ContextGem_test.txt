@@ -1,0 +1,915 @@
+CONFIDENTIAL — FOR INTERNAL AND COUNTERPARTY USE ONLY
+
+MASTER SERVICES AND CONSULTANCY AGREEMENT
+
+Document No. MSA-2025-NOR-4417 | Version 3.2 (executed draft)
+
+This Agreement is made effective as of 1 January 2025 (the “Effective
+Date”).
+
+  ------------------------- ---------------------------------------------
+  Supplier / Consultant     Nordic Systems Consulting AS (org. no. 912
+                            334 881), a company incorporated under the
+                            laws of Norway, with registered office at
+                            Storgata 18, 0184 Oslo, Norway (“Supplier”).
+
+  Customer                  Helios Freight Holdings Ltd (company no.
+                            11844721), a company incorporated under the
+                            laws of England and Wales, with registered
+                            office at 14 Finsbury Square, London EC2A
+                            1AH, United Kingdom (“Customer”).
+
+  Contract value (initial   EUR 480,000 exclusive of VAT, as further
+  Term)                     detailed in Schedule B.
+
+  Initial Term              Twenty-four (24) months from the Effective
+                            Date, unless earlier terminated.
+
+  Governing law (cover)     This Agreement shall be governed by the laws
+                            of Norway.
+
+  Primary contacts          Supplier: Ingrid Halvorsen, Partner,
+                            i.halvorsen@nordicsystems.no, +47 21 00 44
+                            10. Customer: James Whitaker, VP Technology,
+                            j.whitaker@heliosfreight.com, +44 20 7946
+                            0812.
+
+  Currency of payment       Euro (EUR), unless a Schedule expressly
+                            states otherwise.
+
+  Execution venue           Oslo, Norway. Signature block dated 15 March
+                            2025.
+  ------------------------- ---------------------------------------------
+
+The Parties agree as follows.
+
+1. Definitions and Interpretation
+
+In this Agreement, unless the context otherwise requires, the following
+terms have the meanings set out below. Defined terms appear with initial
+capitals throughout.
+
+1.1 Defined terms
+
+  -----------------------------------------------------------------------
+  Term             Meaning
+  ---------------- ------------------------------------------------------
+  Affiliate        Any entity that directly or indirectly controls, is
+                   controlled by, or is under common control with a
+                   Party, where “control” means ownership of more than
+                   fifty percent (50%) of voting securities.
+
+  Agreement        This Master Services and Consultancy Agreement
+                   including all Schedules, Statements of Work, Change
+                   Orders and annexes, as amended from time to time.
+
+  Background IP    Intellectual property owned or licensed by a Party
+                   independently of this Agreement and existing prior to
+                   the Effective Date, or developed independently outside
+                   the scope of the Services.
+
+  Business Day     A day other than a Saturday, Sunday or public holiday
+                   in Oslo, Norway or London, United Kingdom.
+
+  Change Order     A written instrument signed by both Parties amending
+                   the scope, fees, timetable or other material terms of
+                   a Statement of Work.
+
+  Confidential     All non-public information disclosed by a Party (the
+  Information      Disclosing Party) to the other (the Receiving Party),
+                   whether in written, oral, electronic or visual form,
+                   including business plans, customer lists, pricing,
+                   source code, and personal data.
+
+  Deliverable      Any work product, report, software, configuration,
+                   documentation or other material specifically
+                   identified as a deliverable in a Statement of Work.
+
+  Fees             The amounts payable by Customer to Supplier for the
+                   Services, as set out in Schedule B and each Statement
+                   of Work.
+
+  Force Majeure    An event beyond a Party’s reasonable control including
+  Event            act of God, war, terrorism, epidemic, embargo, failure
+                   of utilities, or governmental action, but excluding
+                   mere shortage of staff or lack of funds.
+
+  Personal Data    Has the meaning given in Article 4(1) of Regulation
+                   (EU) 2016/679 (GDPR).
+
+  Services         The consultancy, implementation, support and related
+                   professional services described in Clause 3 and
+                   Schedule A, as further specified in one or more
+                   Statements of Work.
+
+  SLA              The service levels in Schedule C.
+
+  SOW              A Statement of Work executed under this Agreement.
+
+  Term             The Initial Term together with any Renewal Term.
+  -----------------------------------------------------------------------
+
+1.2 Interpretation
+
+-   Headings are for convenience only and do not affect interpretation.
+
+-   References to Clauses and Schedules are to this Agreement.
+
+-   “Including” means “including without limitation”.
+
+-   A reference to a statute includes that statute as amended or
+    re-enacted.
+
+-   If there is a conflict between the body of this Agreement and a
+    Schedule, the body prevails, except that Schedule B prevails on Fees
+    and Schedule C prevails on service levels.
+
+-   If there is a conflict between this Agreement and an SOW, the SOW
+    prevails solely in respect of that SOW’s scope, timetable and fees,
+    and only to the extent of the inconsistency.
+
+2. Parties, Recitals and Purpose
+
+2.1 Recitals
+
+A. Customer operates a multimodal freight network across Northern Europe
+and the United Kingdom and is implementing a new
+transportation-management platform known internally as Project Meridian.
+
+B. Supplier is a specialist consultancy in logistics systems
+integration, with particular expertise in TMS, customs messaging, and
+operational analytics.
+
+C. Customer wishes to engage Supplier to provide programme leadership,
+solution architecture, integration design, data migration oversight and
+hypercare support for Project Meridian.
+
+D. The Parties intend this Agreement to govern all such services from
+the Effective Date, whether or not a particular workstream is later
+documented in a separate SOW.
+
+2.2 Purpose
+
+The purpose of this Agreement is to establish a framework under which
+Supplier will deliver the Services in a professional manner, on time and
+within the agreed Fees, and under which Customer will provide timely
+access, decisions and payment.
+
+3. Scope of Services
+
+3.1 Core workstreams
+
+Subject to the terms of this Agreement, Supplier shall provide the
+Services described in Schedule A. Without limiting Schedule A, the core
+workstreams are:
+
+1.  Programme leadership and PMO, including a named Engagement Lead
+    (Ingrid Halvorsen) at 0.4 FTE and a named Project Manager (Lars
+    Ødegård) at 0.8 FTE.
+
+2.  Target architecture for the Meridian TMS stack, covering order
+    capture, rating, planning, execution, settlement and customs.
+
+3.  Integration design for SAP S/4HANA (finance), Manhattan WMS, and the
+    Customer-facing portal known as Helios Connect.
+
+4.  Data migration strategy, mapping of 14 source systems, dual-run plan
+    and cutover runbook.
+
+5.  Test strategy, UAT facilitation and defect triage during the 8-week
+    test window commencing 2 June 2025.
+
+6.  Hypercare for eight (8) weeks following Go-Live, targeted for 15
+    September 2025, with on-site presence in London during the first two
+    weeks.
+
+3.2 Out of scope
+
+Unless expressly added by Change Order, the following are out of scope:
+software licence fees payable to third-party vendors; hardware; Customer
+internal change-management communications beyond two town-hall
+briefings; and legal advice on customs classification.
+
+3.3 Customer dependencies
+
+Customer shall: (a) appoint James Whitaker as executive sponsor and Maya
+Chen as day-to-day counterpart; (b) provide access to systems and
+subject-matter experts within five (5) Business Days of a written
+request; (c) supply source data extracts in the formats specified in
+Schedule A by 31 March 2025; and (d) make decisions on open architecture
+questions within ten (10) Business Days.
+
+3.4 Location and working pattern
+
+Services will be delivered in a hybrid model: two days per week on
+Customer premises at 14 Finsbury Square, London, and three days remotely
+from Oslo or other Supplier locations in the EEA. Travel to Customer
+sites outside London requires prior written approval and is chargeable
+in accordance with Schedule B.
+
+4. Fees, Invoicing and Payment
+
+4.1 Contract value and rate card
+
+The estimated Fees for the Initial Term are Four Hundred and Eighty
+Thousand Euro (EUR 480,000) exclusive of VAT, based on the rate card and
+estimated effort in Schedule B. This is a time-and-materials estimate
+with a not-to-exceed cap of EUR 520,000 unless a Change Order is signed.
+
+All invoices shall be issued in Euro. Notwithstanding the foregoing,
+travel expenses incurred in the United Kingdom may be invoiced in Pounds
+Sterling (GBP) and converted at the ECB reference rate on the invoice
+date. In one internal budget note attached as Appendix D (not forming
+part of this Agreement), Customer finance recorded a planning figure of
+USD 510,000; that figure is illustrative only and is not a contractual
+amount.
+
+4.2 Invoicing
+
+Supplier shall invoice monthly in arrears on or after the last Business
+Day of each calendar month, attaching a timesheet signed by the
+Engagement Lead and a summary of expenses. The first invoice is expected
+on or about 31 January 2025.
+
+4.3 Payment terms
+
+Customer shall pay each valid invoice within thirty (30) calendar days
+of the invoice date (Net 30), by wire transfer to the Supplier account
+specified on the invoice. The account details currently notified are:
+DNB Bank ASA, IBAN NO93 8601 1117 947, BIC DNBANOKKXXX, account name
+Nordic Systems Consulting AS.
+
+Late payments shall accrue interest at a rate of eight percent (8%) per
+annum above the European Central Bank main refinancing rate, calculated
+daily, without prejudice to other remedies.
+
+4.4 Taxes
+
+Fees are exclusive of VAT and any similar tax. Where Norwegian VAT or UK
+VAT is chargeable, it will be added at the prevailing rate. The Parties
+intend that Services performed from Norway for a UK-established Customer
+may be subject to reverse charge; Customer shall provide a valid VAT
+number (GB 332 7718 04) on request.
+
+4.5 Disputed invoices
+
+Customer may withhold only the disputed portion of an invoice and must
+notify Supplier in writing within ten (10) Business Days of receipt,
+specifying the grounds. Undisputed amounts remain payable on the
+original due date.
+
+5. Term, Renewal and Termination
+
+5.1 Initial Term
+
+This Agreement commences on the Effective Date (1 January 2025) and
+continues for twenty-four (24) months, expiring on 31 December 2026,
+unless terminated earlier in accordance with this Clause 5.
+
+5.2 Renewal
+
+Unless either Party gives written notice of non-renewal at least ninety
+(90) days before expiry of the then-current Term, this Agreement shall
+automatically renew for successive periods of twelve (12) months (each a
+“Renewal Term”). For the avoidance of doubt, a later planning slide
+circulated by Customer PMO referred to a “36-month partnership horizon”;
+that slide is not incorporated and does not extend the contractual Term.
+
+5.3 Termination for convenience
+
+Customer may terminate this Agreement or any SOW for convenience by
+giving sixty (60) days’ prior written notice. In that event Customer
+shall pay: (a) Fees for Services performed up to the termination date;
+(b) non-cancellable third-party costs reasonably incurred; and (c) a
+demobilisation fee equal to four (4) weeks of the then-current average
+monthly Fees.
+
+5.4 Termination for cause
+
+Either Party may terminate immediately by written notice if the other:
+(a) commits a material breach and fails to cure within thirty (30) days
+of written notice (or fifteen (15) days in the case of non-payment); (b)
+becomes insolvent, enters administration, or ceases to carry on
+business; or (c) undergoes a change of control in favour of a direct
+competitor of the terminating Party, provided notice is given within
+sixty (60) days of the terminating Party becoming aware.
+
+5.5 Consequences of termination
+
+Upon termination or expiry Supplier shall deliver all completed
+Deliverables, return or destroy Customer Confidential Information within
+thirty (30) days (except one archival copy retained for professional
+indemnity purposes for seven (7) years), and invoice for outstanding
+Fees. Clauses 6, 7, 8, 9, 11, 12 and 16 survive termination.
+
+6. Confidentiality
+
+6.1 Obligations
+
+Each Receiving Party shall keep Confidential Information in strict
+confidence, use it solely to perform this Agreement, and disclose it
+only to personnel and subcontractors who have a need to know and are
+bound by written confidentiality obligations no less protective than
+this Clause 6.
+
+6.2 Duration
+
+The obligations in this Clause 6 survive for three (3) years after
+expiry or termination of this Agreement. Trade secrets shall be
+protected for so long as they remain trade secrets under applicable law.
+
+Note for reviewers: Schedule E (Data Processing) states that
+confidentiality obligations in respect of Personal Data last for five
+(5) years after the end of processing. That longer period applies only
+to Personal Data and does not amend the three-year period for other
+Confidential Information. An earlier draft circulating internally stated
+a uniform five-year confidentiality term; that draft was superseded.
+
+6.3 Exceptions
+
+Confidential Information does not include information that: (a) is or
+becomes public other than by breach; (b) was rightfully known to the
+Receiving Party before disclosure; (c) is independently developed
+without use of the Disclosing Party’s information; or (d) is required to
+be disclosed by law, provided the Receiving Party gives prompt notice
+where legally permitted.
+
+7. Intellectual Property
+
+7.1 Background IP
+
+Each Party retains all right, title and interest in its Background IP.
+Supplier hereby grants Customer a non-exclusive, perpetual, irrevocable,
+worldwide, royalty-free licence to use Supplier Background IP solely as
+embedded in the Deliverables for Customer’s internal business purposes.
+
+7.2 Foreground IP
+
+Upon full payment of the applicable Fees, all intellectual property in
+Deliverables created specifically for Customer under an SOW (“Foreground
+IP”) shall vest in Customer. Supplier may retain an irrevocable licence
+to use generic methodologies, know-how and residual knowledge that do
+not disclose Customer Confidential Information.
+
+7.3 Third-party materials
+
+Supplier shall not incorporate third-party materials into Deliverables
+unless listed in the relevant SOW or approved in a Change Order.
+Open-source software may be used if it is licensed under a permissive
+licence (MIT, BSD, Apache-2.0) and identified in the Deliverable
+documentation.
+
+8. Liability, Indemnities and Insurance
+
+8.1 Cap on liability
+
+Subject to Clause 8.3, each Party’s aggregate liability arising out of
+or in connection with this Agreement, whether in contract, tort
+(including negligence) or otherwise, shall not exceed the total Fees
+paid or payable by Customer to Supplier in the twelve (12) months
+preceding the first event giving rise to the claim, or EUR 250,000,
+whichever is higher.
+
+8.2 Exclusion of consequential loss
+
+Neither Party shall be liable for loss of profit, loss of revenue, loss
+of goodwill, loss of data (except the reasonable cost of
+reconstitution), or any indirect or consequential loss, whether or not
+foreseeable.
+
+8.3 Unlimited liabilities
+
+Nothing in this Agreement limits liability for: death or personal injury
+caused by negligence; fraud or fraudulent misrepresentation; wilful
+misconduct; breach of Clause 6 (Confidentiality) to the extent arising
+from unauthorised disclosure; or any liability that cannot be limited
+under applicable law.
+
+8.4 Indemnities
+
+Supplier shall indemnify Customer against third-party claims that a
+Deliverable infringes IP rights in the EEA or the United Kingdom,
+provided Customer gives prompt notice and sole control of the defence.
+Customer shall indemnify Supplier against claims arising from Customer
+data, Customer-provided materials, or Customer’s misuse of Deliverables.
+
+8.5 Insurance
+
+During the Term and for two (2) years thereafter, Supplier shall
+maintain: professional indemnity insurance of not less than EUR
+2,000,000 per claim; public liability insurance of not less than EUR
+5,000,000; and cyber liability insurance of not less than EUR 1,000,000.
+Certificates shall be provided within ten (10) Business Days of written
+request.
+
+9. Data Protection and Security
+
+Each Party shall comply with applicable data protection law, including
+the GDPR and the UK GDPR. Where Supplier processes Personal Data on
+behalf of Customer, the Parties shall execute the data processing
+addendum in Schedule E before any such processing begins.
+
+Supplier’s primary processing locations are Oslo, Norway and a backup
+region in Frankfurt am Main, Germany. No Personal Data shall be
+transferred to the United States without Customer’s prior written
+consent and an appropriate transfer mechanism (EU Standard Contractual
+Clauses, Module 2).
+
+Security measures include: encryption in transit (TLS 1.2 or higher) and
+at rest (AES-256); multi-factor authentication for all production
+access; logging retained for 180 days; and a documented
+incident-response plan. Supplier shall notify Customer of a Personal
+Data Breach without undue delay and in any event within seventy-two (72)
+hours of becoming aware.
+
+Customer remains the controller of all Personal Data in source extracts.
+The categories expected to be processed are: names and business contact
+details of Customer employees and contractors; shipment reference
+numbers; and, in limited test data only, pseudonymised consignee
+postcodes. No special-category data is intended to be processed.
+
+10. Service Levels, Governance and Reporting
+
+10.1 Governance
+
+The Parties shall hold: (a) a weekly operational standup (30 minutes);
+(b) a fortnightly steering committee chaired by James Whitaker with
+Ingrid Halvorsen attending; and (c) a quarterly business review. Minutes
+shall be circulated within three (3) Business Days.
+
+10.2 Reporting
+
+Supplier shall deliver a written monthly status report by the fifth
+Business Day of the following month, covering progress against the plan
+in Schedule A, RAID log, actual vs planned effort, and SLA performance
+for the support period.
+
+10.3 Service levels
+
+From Go-Live, Supplier shall meet the service levels in Schedule C.
+Service credits, if any, are Customer’s exclusive remedy for SLA failure
+and are capped at ten percent (10%) of the monthly support Fees in the
+affected month.
+
+11. Non-Solicitation
+
+During the Term and for twelve (12) months thereafter, neither Party
+shall solicit for employment any employee of the other Party who was
+materially involved in the Services, without prior written consent. This
+restriction does not apply to responses to general public
+advertisements. A liquidated sum equal to six (6) months of the
+solicited employee’s base salary is agreed as a genuine pre-estimate of
+loss.
+
+12. Governing Law and Dispute Resolution
+
+12.1 Governing law
+
+This Agreement and any dispute or claim arising out of or in connection
+with it or its subject matter or formation (including non-contractual
+disputes or claims) shall be governed by and construed in accordance
+with the laws of England and Wales.
+
+Reviewer flag: Clause 12.1 conflicts with the cover page statement that
+the Agreement is governed by the laws of Norway, and with Clause 16.6
+(Notices) which refers to the Norwegian Contracts Act. For extraction
+testing, both statements are left in the executed draft. Counsel’s
+preferred position, recorded in the 4 March 2025 issues list, is England
+and Wales with courts of England having exclusive jurisdiction.
+
+12.2 Jurisdiction
+
+The courts of England and Wales shall have exclusive jurisdiction.
+Notwithstanding the foregoing, either Party may seek interim injunctive
+relief in any court of competent jurisdiction to protect Confidential
+Information or Intellectual Property.
+
+12.3 Escalation
+
+Before commencing litigation, the Parties shall escalate the dispute to
+the executive sponsors (Ingrid Halvorsen and James Whitaker) and allow
+fifteen (15) Business Days for good-faith negotiation.
+
+13. Compliance, Ethics and Modern Slavery
+
+Each Party shall comply with applicable anti-bribery laws including the
+UK Bribery Act 2010 and the Norwegian Penal Code provisions on
+corruption. Neither Party shall offer or accept any improper advantage
+in connection with this Agreement.
+
+Supplier represents that it has due-diligence procedures for its supply
+chain and shall notify Customer if it becomes aware of any
+modern-slavery or human-trafficking incident in connection with the
+Services. Supplier’s latest modern-slavery statement is dated 30
+September 2024.
+
+Export-control: Deliverables are not intended to include dual-use items.
+Customer shall not require Supplier personnel to work on classified
+government programmes without a separate security addendum.
+
+14. Personnel, Subcontracting and Assignment
+
+Supplier may subcontract specialised work to vetted subcontractors
+within the EEA, remaining fully responsible for their performance.
+Material subcontractors currently intended are: Fjord Analytics AB
+(Stockholm) for data-quality scripts, and Pine & Co. Limited
+(Manchester) for UAT facilitation. Customer may reject a named
+subcontractor on reasonable written grounds.
+
+Key personnel may not be removed from the account for the first six (6)
+months except for illness, resignation or material under-performance.
+Replacement candidates shall be of equivalent seniority and offered for
+Customer review on five (5) Business Days’ notice.
+
+Neither Party may assign this Agreement without the other’s prior
+written consent, except to an Affiliate or to a successor in connection
+with a merger or sale of substantially all assets, provided the assignee
+assumes all obligations in writing.
+
+15. Force Majeure
+
+A Party affected by a Force Majeure Event shall notify the other within
+five (5) Business Days, take reasonable mitigation steps, and is excused
+from performance for the duration of the event. If the event continues
+for more than sixty (60) consecutive days, either Party may terminate
+the affected SOW on fourteen (14) days’ notice without liability except
+for Fees accrued.
+
+16. General Provisions
+
+16.1 Entire agreement
+
+This Agreement including its Schedules constitutes the entire agreement
+between the Parties and supersedes all prior negotiations,
+representations and drafts, including the Heads of Terms dated 12
+November 2024 and the proposal numbered NSC-P-8841 dated 2 December
+2024.
+
+16.2 Variation
+
+No variation is effective unless in writing and signed by authorised
+signatories of both Parties. Email is sufficient if it attaches a Change
+Order in the form of Schedule D and is sent from the authorised
+addresses in Clause 16.4.
+
+16.3 Waiver
+
+A failure or delay in exercising a right is not a waiver. A waiver must
+be in writing and is limited to the specific circumstances.
+
+16.4 Notices
+
+Notices must be in writing and delivered by hand, courier, or email with
+read-receipt to: Supplier — legal@nordicsystems.no and
+i.halvorsen@nordicsystems.no, Storgata 18, 0184 Oslo, Norway; Customer —
+legal@heliosfreight.com and j.whitaker@heliosfreight.com, 14 Finsbury
+Square, London EC2A 1AH, United Kingdom. Email notices are deemed
+received on the next Business Day if sent on a Business Day before 17:00
+local time of the recipient.
+
+16.5 Severability
+
+If any provision is held invalid, the remainder continues in force. The
+invalid provision shall be modified to the minimum extent necessary to
+make it valid.
+
+16.6 Relationship of the Parties
+
+The Parties are independent contractors. Nothing creates a partnership,
+joint venture or employment relationship. Supplier personnel are not
+entitled to Customer employee benefits.
+
+16.7 Counterparts
+
+This Agreement may be executed in counterparts, including electronic
+signature (DocuSign or equivalent), each of which is deemed an original.
+
+16.8 Language
+
+This Agreement is executed in English. Any translation is for
+convenience only. The English version prevails.
+
+17. Signatures
+
+IN WITNESS WHEREOF the Parties have executed this Agreement on the dates
+set out below. The signature block is dated 15 March 2025. For the
+avoidance of doubt, the contractual Effective Date remains 1 January
+2025, and Services performed between those dates are deemed provided
+under this Agreement.
+
++-----------------------------------+-----------------------------------+
+| For Nordic Systems Consulting AS  | For Helios Freight Holdings Ltd   |
+|                                   |                                   |
+| Signature:                        | Signature:                        |
+| ___________________________       | ___________________________       |
+|                                   |                                   |
+| Name: Ingrid Halvorsen            | Name: James Whitaker              |
+|                                   |                                   |
+| Title: Partner and authorised     | Title: Vice President, Technology |
+| signatory                         |                                   |
+|                                   | Date: 15 March 2025               |
+| Date: 15 March 2025               |                                   |
+|                                   | Place: London, United Kingdom     |
+| Place: Oslo, Norway               |                                   |
++-----------------------------------+-----------------------------------+
+
+Schedule A — Statement of Work Framework and Delivery Plan
+
+This Schedule A forms part of the Master Services and Consultancy
+Agreement between Nordic Systems Consulting AS and Helios Freight
+Holdings Ltd.
+
+A.1 Programme phases
+
+  --------------------------------------------------------------------------
+  Phase       Start           End             Primary outcome
+  ----------- --------------- --------------- ------------------------------
+  0 –         6 Jan 2025      31 Jan 2025     Team onboarding, RAID
+  Mobilise                                    baseline, access, detailed
+                                              plan
+
+  1 –         3 Feb 2025      28 Mar 2025     As-is process maps, 14-system
+  Discover                                    inventory, data-quality
+                                              baseline
+
+  2 –         31 Mar 2025     23 May 2025     Target architecture v1.0
+  Architect                                   signed off by steering
+                                              committee
+
+  3 – Build & 26 May 2025     12 Sep 2025     Integrations built; SIT
+  test                                        complete; UAT complete;
+                                              cutover rehearsal
+
+  4 – Go-Live 15 Sep 2025     19 Sep 2025     Production cutover of Meridian
+                                              TMS wave 1 (UK + Nordics)
+
+  5 –         22 Sep 2025     14 Nov 2025     Eight-week hypercare; defect
+  Hypercare                                   burn-down; handover to BAU
+  --------------------------------------------------------------------------
+
+A.2 Named resources and planned effort (Initial Term)
+
+  ------------------------------------------------------------------------
+  Role                Name         Location     FTE          Est. days
+  ------------------- ------------ ------------ ------------ -------------
+  Engagement Lead     Ingrid       Oslo         0.40         192
+                      Halvorsen                              
+
+  Project Manager     Lars Ødegård Oslo /       0.80         384
+                                   London                    
+
+  Solution Architect  Priya Nair   London       0.90         432
+
+  Integration Lead    Tomáš Král   Prague (EEA) 0.70         336
+
+  Data Lead           Sofia Berg   Stockholm    0.60         288
+
+  Test Lead           Hannah Cole  Manchester   0.50         240
+
+  Change Analyst      Owen Blake   London       0.40         192
+  ------------------------------------------------------------------------
+
+Total estimated professional days in the Initial Term: 2,064 days. Using
+the blended assumptions in Schedule B this supports the EUR 480,000
+estimate. Actual days will be tracked monthly.
+
+A.3 Deliverables register (selected)
+
+  ------------------------------------------------------------------------
+  ID       Deliverable                   Due              Acceptance
+  -------- ----------------------------- ---------------- ----------------
+  D-01     Programme charter and RAID    24 Jan 2025      Sponsor sign-off
+           log v1                                         
+
+  D-02     As-is process pack            14 Mar 2025      Workshop
+           (order-to-cash,                                confirmation
+           plan-to-execute)                               
+
+  D-03     Target architecture document  16 May 2025      Architecture
+           v1.0                                           board
+
+  D-04     Integration specification     30 May 2025      Tech authority
+           pack (SAP, WMS, portal)                        
+
+  D-05     Data migration strategy and   13 Jun 2025      Data owner
+           mapping workbook                               
+
+  D-06     SIT exit report               8 Aug 2025       Test board
+
+  D-07     UAT exit report and go-live   5 Sep 2025       Steering
+           recommendation                                 committee
+
+  D-08     Cutover runbook and rollback  8 Sep 2025       Ops director
+           plan                                           
+
+  D-09     Hypercare exit and BAU        14 Nov 2025      Service owner
+           handover pack                                  
+  ------------------------------------------------------------------------
+
+A.4 Acceptance procedure
+
+Customer shall accept or reject a Deliverable within ten (10) Business
+Days of submission. Silence after that period constitutes acceptance.
+Rejection must specify defects with reasonable particularity. Supplier
+shall correct material defects within fifteen (15) Business Days or such
+other period as the Parties agree.
+
+Schedule B — Fees, Rate Card and Expenses
+
+This Schedule B prevails over the body of the Agreement solely on
+questions of Fees, rates and recoverable expenses.
+
+B.1 Rate card (EUR, exclusive of VAT)
+
+  -----------------------------------------------------------------------
+  Grade                   Day rate EUR    Half-day EUR    On-site uplift
+  ----------------------- --------------- --------------- ---------------
+  Partner / Engagement    1,450           800             15%
+  Lead                                                    
+
+  Principal / Architect   1,150           650             15%
+
+  Senior Consultant       950             540             12%
+
+  Consultant              780             440             12%
+
+  Analyst                 620             350             10%
+  -----------------------------------------------------------------------
+
+A day is 8 hours. Time is booked in 0.25-day increments. Saturday work,
+if pre-approved, is charged at 150% of the day rate. Public holidays in
+the consultant’s home country are not chargeable unless worked by
+agreement.
+
+B.2 Estimate vs cap
+
+Indicative mix supporting EUR 480,000: Partner 192 days × 1,450 =
+278,400 is incorrect if applied to all days; the mix is blended. The
+contractual estimate is EUR 480,000. The not-to-exceed cap is EUR
+520,000. Work beyond the cap requires a signed Change Order before it is
+performed.
+
+B.3 Expenses
+
+Pre-approved travel is reimbursed at cost. Economy air within Europe;
+standard-class rail; hotels up to EUR 220 per night in London and EUR
+180 elsewhere. Per diem is not paid. Mileage, if any, follows the
+Norwegian government rate then in force. Expense claims require receipts
+above EUR 25.
+
+B.4 Payment mechanics — schedule note
+
+Invoices are due Net 30 under Clause 4.3. Accounts payable at Customer
+has an internal SLA of Net 45 for non-PO consultancy invoices. That
+internal SLA does not amend Clause 4.3. Supplier is entitled to interest
+if payment exceeds thirty (30) calendar days from invoice date.
+
+Retainage: none. No performance bond is required. Milestone billing is
+not used in the Initial Term except that Deliverable D-03, if accepted
+late by more than twenty (20) Business Days solely due to Supplier,
+entitles Customer to withhold ten percent (10%) of the then-current
+month’s Fees until acceptance.
+
+Schedule C — Service Levels (from Go-Live)
+
+These service levels apply to hypercare and any subsequent support SOW.
+They do not apply to project delivery prior to Go-Live.
+
+  ------------------------------------------------------------------------
+  Priority     Definition        Response             Restore / resolve
+               (examples)                             
+  ------------ ----------------- -------------------- --------------------
+  P1 –         Production down;  30 minutes, 24×7     4 hours restore
+  Critical     no workaround;                         
+               customs                                
+               declarations                           
+               blocked                                
+
+  P2 – High    Major function    2 hours, 08:00–20:00 1 Business Day
+               impaired;         CET                  
+               workaround exists                      
+
+  P3 – Medium  Partial           8 Business Hours     3 Business Days
+               impairment;                            
+               limited users                          
+
+  P4 – Low     Cosmetic;         2 Business Days      Agreed in backlog
+               documentation;                         
+               enhancement                            
+               request                                
+  ------------------------------------------------------------------------
+
+Response means a qualified engineer acknowledges the ticket and begins
+investigation. Restore means a workaround or fix returning the service
+to production use. Hours 24×7 for P1 only; other priorities follow
+Business Days as defined in Clause 1.1, using Oslo business hours
+(CET/CEST).
+
+Service credits: 3% of that month’s support Fees for each failed P1
+restore, 1% for each failed P2 restore, aggregate cap 10% of that
+month’s support Fees. Credits are applied to the following invoice and
+are the exclusive remedy for SLA failure.
+
+Reporting: SLA performance shall be included in the monthly report under
+Clause 10.2. A single incident shall not be counted under more than one
+priority.
+
+Schedule D — Change Order Form (template)
+
+Change Order no.: CO-____ Date: ________ Related SOW / Agreement:
+MSA-2025-NOR-4417
+
+Originator: ________ Requested by date: ________
+
+Description of change (scope, timetable, Fees, resources):
+
+________________________________________________________________
+
+________________________________________________________________
+
+Impact on Fees (increase / decrease / nil): EUR ________
+
+Impact on dates: ________________________________
+
+Impact on Deliverables: __________________________
+
+Authorised signatures: Supplier ________________ Date ______ Customer
+________________ Date ______
+
+Schedule E — Data Processing Summary
+
+This summary is not a substitute for a full Article 28 DPA. The Parties
+shall execute a full DPA before processing begins. Until then, Supplier
+shall not process Personal Data other than business contact data of
+project participants.
+
+E.1 Roles
+
+Customer is controller. Supplier is processor for project-related
+Personal Data. Sub-processors: Microsoft Ireland (Azure West Europe /
+Germany West Central) for document storage; Fjord Analytics AB for
+data-quality scripts, subject to a written flow-down.
+
+E.2 Duration and deletion
+
+Processing lasts for the Term plus 90 days for wind-down. Thereafter
+Personal Data is deleted or returned within 30 days, except archival
+copies required by law. Confidentiality obligations in respect of
+Personal Data last for five (5) years after the end of processing.
+
+E.3 International transfers
+
+Primary: Norway (EEA adequacy). Backup: Germany. No US transfer without
+SCCs and Customer consent, as stated in Clause 9.
+
+Appendix X — Known Draft Inconsistencies (for extraction evaluation)
+
+This Appendix is intentionally included so that an extraction framework
+can be scored against a published list of inconsistencies. In a live
+executed contract this Appendix would be removed. Each item below is a
+real tension present in the body or Schedules of this draft.
+
+  -----------------------------------------------------------------------
+  ID        Statement A                    Statement B
+  --------- ------------------------------ ------------------------------
+  X-01      Cover and Clause 5.1:          Clause 17 signatures dated 15
+            Effective Date 1 January 2025. March 2025; Services between
+                                           those dates are ratified.
+
+  X-02      Cover and Clause 1/5: Initial  Clause 5.2 notes a Customer
+            Term 24 months ending 31       PMO slide referring to a
+            December 2026.                 36-month horizon (expressly
+                                           not incorporated).
+
+  X-03      Cover: governed by the laws of Clause 12.1: governed by the
+            Norway.                        laws of England and Wales;
+                                           exclusive English courts.
+
+  X-04      Clause 4.3: payment Net 30     Schedule B.4: Customer AP
+            from invoice date.             internal SLA is Net 45
+                                           (expressly does not amend
+                                           Clause 4.3).
+
+  X-05      Cover and Clause 4.1: contract Clause 4.1 mentions an
+            value EUR 480,000; cap EUR     internal budget note of USD
+            520,000.                       510,000 (expressly
+                                           non-contractual).
+
+  X-06      Clause 6.2: confidentiality    Schedule E.2: confidentiality
+            survives 3 years.              for Personal Data survives 5
+                                           years after end of processing.
+
+  X-07      Clause 4.1: invoices in Euro;  Cover “Currency of payment:
+            UK travel may be invoiced in   Euro unless a Schedule
+            GBP.                           expressly states otherwise.”
+  -----------------------------------------------------------------------
+
+Expected high-quality extraction should: (1) identify both poles of each
+inconsistency; (2) record which statement the document itself treats as
+prevailing where the draft says so; (3) attach paragraph- or
+sentence-level references; (4) not invent a resolution that the text
+does not state.
+
+End of document. Classification: Confidential. Retention: retain for
+seven (7) years after expiry in accordance with Supplier
+professional-indemnity policy and Customer records schedule R-FIN-07.

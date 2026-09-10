@@ -10,7 +10,8 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY app.py extract.py presets.py ./
+COPY streamlit_app.py gem_instructions.txt RACE.md ./
+COPY fixtures ./fixtures
 
 EXPOSE 8080
-CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "streamlit_app.py", "--server.port=8080", "--server.address=0.0.0.0"]
